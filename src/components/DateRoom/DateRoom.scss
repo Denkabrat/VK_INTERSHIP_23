@@ -1,0 +1,209 @@
+@media (max-width:700px) {
+    .Choose_Button_Date{
+        max-width: 150px;
+    }
+    .Choose_Button_Room{
+        max-width: 150px;
+    }
+
+    .Date_Selector{
+        max-width: 500px;
+    }
+    .Main_Wrapper{
+        max-width: 460px;
+    }
+    .Chose_Date{
+        font-size: 18px;
+        margin: 0 -40px;
+    }
+    .Chose_Room{
+        font-size: 18px;
+        width: 130px;
+        text-align: center;
+        margin: 0 -40px;
+    }
+    .Select_Container_Date{
+        max-width: 150px;
+    }
+    .Select_Container_Room{
+        max-width: 150px;
+    }
+    .Dropdown_Rooms{
+        max-width: 150px;
+    }
+}
+
+@media (max-width:550px) {
+    .Date_Selector{
+        max-width: 400px;
+    }
+    .Main_Wrapper{
+        max-width: 330px;
+    }
+    .Chose_Date{
+        font-size: 17px;
+        margin: 0 -50px ;
+    }
+    .Chose_Room{
+        font-size: 17px;
+        width: 100px;
+    }
+    .Choose_Button_Date{
+        max-width: 120px;
+    }
+    .Choose_Button_Room{
+        max-width: 120px;
+    }
+    .Select_Container_Date{
+        max-width: 120px;
+        margin: 0 -10px;
+    }
+    .Select_Container_Room{
+        max-width: 120px;
+        margin: 0 -10px;
+    }
+    .Dropdown_Rooms{
+        max-width: 120px;
+    }
+}
+
+@font-face {
+    font-family: VKSans;
+    src: url(../../../public/fonts/VKSans.ttf);
+}
+
+.Main_Wrapper{
+    width: 700px;
+    height: 200px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Date_Selector{
+    width: 650px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dfdede ;
+    -webkit-box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+    -moz-box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+    box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+}
+
+.Choose_Selector{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+.Chose_Room{
+    margin: 0 -48px;
+}
+
+.Options_Item_DateRoom{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
+}
+
+.Select_Container_Date{
+    width: 230px;
+    height: 40px;
+    border-radius:8px;
+    background-color: #f2f3f5;
+    border: 1px solid #dfdede;
+    display: flex;
+    flex-direction: column;
+}
+
+.Select_Container_Room{
+    width: 230px;
+    height: 40px;
+    border-radius:8px;
+    background-color: #f2f3f5;
+    border: 1px solid #dfdede;
+}
+
+.Choose_DateRoom{
+   margin: 8px 0;
+   font-size: 17px;
+   width: 220px;
+}
+
+.Choose_Button_Date{
+    font-family: VKSans;
+    display: flex;
+    justify-content: space-between;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 228px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Choose_Button_Room{
+    font-family: VKSans;
+    padding: 10px;
+    margin: 0;
+    font-size: 17px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.Dropdown_Rooms{
+    margin: -6px -1px;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 120px;
+    border-radius:0 0 8px 8px;
+    border-left: 1px solid  #dfdede;
+    border-right: 1px solid  #dfdede;
+    border-bottom: 1px solid  #dfdede;
+    overflow-y: auto;
+    overflow-x:hidden;
+    z-index: 100;
+    position: absolute;
+}
+
+.Dropdown_Rooms::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+  }
+  
+.Dropdown_Rooms::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #cacaca;
+}
+
+.Dropdown_Rooms::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.Button_Li_Room:last-child{
+    border-radius: 0 0 7px 7px;
+}
+
+.Button_Li_Room{
+    font-family: VKSans;
+    font-size: 17px;
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border:none;
+    background-color: transparent;
+    width: 230px;
+    &:hover{
+        background-color: #f2f3f5;
+    }
+}

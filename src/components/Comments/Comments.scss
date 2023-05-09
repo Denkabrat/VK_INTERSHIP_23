@@ -1,0 +1,88 @@
+@media (max-width:700px) {
+   .Comments_Block{
+        max-width: 460px;
+   }
+   .comments_area{
+      max-width: 350px;
+   }
+   
+}
+
+@media (max-width:550px) {
+    .Comments_Block{
+         max-width: 330px;
+    }
+    .comments_area{
+       max-width: 250px;
+    }
+    
+ }
+
+@font-face {
+    font-family: VKSans;
+    src: url(../../../public/fonts/VKSans.ttf);
+}
+
+.Comments_Block{
+    margin: 0 auto;
+    width: 650px;
+    height: 210px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dfdede ;
+    -webkit-box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+    -moz-box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+    box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment_header{
+    font-size: 20px;
+    position: relative;
+    top: 12px;
+}
+
+.comments_area{
+    font-family: VKSans;
+    position: relative;
+    top: 20px;
+    width: 565px;
+    height: 120px;
+    margin: 0 auto;
+    border: 1px solid #dfdede ;
+    border-radius: 8px;
+    font-size: 20px;
+    resize: none;
+    background-color: #f2f3f5;
+}
+
+.form_btns{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.del_form{
+    cursor: pointer;
+    margin: 0 0 20px;
+    border: none;
+    color: red;
+    font-family: VKSans;
+}
+.send_form{
+    font-family: VKSans;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border-radius:8px;
+    border: none;
+    background-color: #2688eb;
+    color: white;
+    transition: 0.3s all ;
+    &:hover{
+      background-color: #1d75cd;
+    }
+}

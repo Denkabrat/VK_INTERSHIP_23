@@ -1,0 +1,225 @@
+@media (max-width:700px) {
+    .Tower_Selector{
+        max-width: 500px;
+    }
+    .Main_Selector{
+        max-width: 460px;
+    }
+    .Chose_Tower{
+        font-size: 18px;
+        margin: 0 -40px;
+    }
+    .Chose_Floor{
+        font-size: 18px;
+        margin: 0 -40px;
+    }
+    .Choose_Button{
+        max-width: 140px;
+    }
+    .Choose_Button2{
+        max-width: 140px;
+    }
+
+    .Dropdown_Floor{
+        max-width: 150px;
+    }
+    .Dropdown_Tower{
+        max-width: 150px;
+    }
+
+    .Select_Container{
+      max-width: 150px;
+    }
+    .Select_Container2{
+        max-width: 150px;
+    }
+    .Button_Li{
+        max-width: 150px;
+    }
+}
+
+@media (max-width:550px) {
+    .Tower_Selector{
+        max-width: 400px;
+    }
+    .Main_Selector{
+        max-width: 330px;
+    }
+    .Chose_Tower{
+        font-size: 17px;
+        margin: 0 -60px;
+    }
+    .Chose_Floor{
+        font-size: 17px;
+        margin: 0 -60px;
+    }
+
+    .Choose_Button{
+        max-width: 110px;
+    }
+    .Choose_Button2{
+        max-width: 110px;
+    }
+    .Select_Container{
+        max-width: 110px;
+    }
+    .Select_Container2{
+        max-width: 110px;
+    }
+    .Dropdown_Floor{
+        max-width: 110px;
+    }
+    .Dropdown_Tower{
+        max-width: 110px;
+    }
+    .Button_Li{
+        max-width: 110px;
+    }
+}
+
+@font-face {
+    font-family: VKSans;
+    src: url(../../../public/fonts/VKSans.ttf);
+}
+
+.Main_Selector{
+    width: 700px;
+    height: 200px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Tower_Selector{
+    width: 650px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dfdede ;
+    -webkit-box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+    -moz-box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+    box-shadow: -4px -6px 28px 0px rgba(161, 161, 161, 0.4);
+}
+
+.Choose_Item{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+.Options_Item{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
+}
+
+.Select_Container{
+    width: 230px;
+    height: 40px;
+    border-radius:8px;
+    background-color: #f2f3f5;
+    border: 1px solid #dfdede;
+    display: flex;
+    flex-direction: column;
+}
+
+.Select_Container2{
+    width: 230px;
+    height: 40px;
+    border-radius:8px;
+    background-color: #f2f3f5;
+    border: 1px solid #dfdede;
+}
+
+.Choose_Button{
+    font-family: VKSans;
+    margin: 0px;
+    font-size: 17px;
+    width: 230px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.Choose_Button2{
+    font-family: VKSans;
+    margin: 0;
+    font-size: 17px;
+    padding: 10px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.Dropdown_Tower{
+    margin: -6px -1px;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 85px;
+    border-radius:0 0 8px 8px;
+    border-left: 1px solid  #dfdede;
+    border-right: 1px solid  #dfdede;
+    border-bottom: 1px solid  #dfdede;
+    visibility: hidden;
+}
+
+.Dropdown_Floor{
+    margin: -6px -1px;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 120px;
+    border-radius:0 0 8px 8px;
+    border-left: 1px solid  #dfdede;
+    border-right: 1px solid  #dfdede;
+    border-bottom: 1px solid  #dfdede;
+    overflow-y: auto;
+    overflow-x:hidden;
+    z-index: 100;
+    position: absolute;
+    visibility: hidden;
+}
+
+.Dropdown_Floor::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+  }
+  
+.Dropdown_Floor::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #cacaca;
+}
+
+.Dropdown_Floor::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+.Button_Li:last-child{
+    border-radius: 0 0 7px 7px;
+}
+
+
+.Button_Li{
+    font-family: VKSans;
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border:none;
+    background-color: transparent;
+    width: 230px;
+    font-size: 17px;
+    &:hover{
+        background-color: #f2f3f5;
+    }
+}

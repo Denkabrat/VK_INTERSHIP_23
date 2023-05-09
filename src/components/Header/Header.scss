@@ -1,0 +1,24 @@
+.Header{
+    background-color: #ffffff;
+    width: 100%;
+}
+.Header_Wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 400px;
+    position: sticky;
+}
+
+.Header_Logo{
+    width: 33px;
+    height: 33px;
+    margin-top: 10px;
+}
+.Booking_Title{
+    position: relative;
+    top: -4px;
+    margin-left: 10px;
+}
+
